@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+
+.contenido-resumen{
+    p{
+
+    }
+    span{
+
+    }
+}
+
+.contenedor-servicio{
+    border-bottom: 1px solid v.$gris;
+}

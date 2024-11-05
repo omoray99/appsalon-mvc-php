@@ -1,0 +1,12 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.acciones{
+    margin-top: v.$separacion;
+    a{
+        color: v.$blanco;
+        display: block; // va a forzar el salto de linea
+        margin-bottom: calc(v.$separacion /3);
+
+    }
+}

@@ -1,0 +1,14 @@
+@use 'base/variable' as v;
+
+
+.alerta {
+    padding: calc(v.$separacion/4);
+    color: v.$azul;
+    width: 100%;
+    display: block; // para garantizar que se muestre un alerta arriba de la otra
+    margin-bottom: 2rem;
+
+    &.error{
+        background-color: v.$rojo;
+    }
+}

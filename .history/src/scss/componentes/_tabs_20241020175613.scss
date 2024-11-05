@@ -1,0 +1,11 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.tabs{
+
+    button{
+        
+        background-color: v.$azul;
+        border: none;
+    }
+}

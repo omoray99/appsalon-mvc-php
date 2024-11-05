@@ -1,0 +1,15 @@
+@use 'base/variables' as v;
+
+.contenido-resumen{
+    p{
+
+    }
+    span{
+        color: v.$azul2;
+        font-weight: v.$bold;
+    }
+}
+
+.contenedor-servicio{
+    border-bottom: 1px solid v.$gris;
+}

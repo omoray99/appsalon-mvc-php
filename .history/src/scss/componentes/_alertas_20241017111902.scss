@@ -1,0 +1,7 @@
+@use 'base/variable' as v;
+
+
+.alerta {
+    padding: calc(v.$separacion/2);
+    color: v.$blanco;
+}

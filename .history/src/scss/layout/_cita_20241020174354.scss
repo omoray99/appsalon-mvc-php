@@ -1,0 +1,9 @@
+
+@use 'base/variable' as v;
+
+.seccion{
+    .text-center{
+        text-align: center;
+        color: v.$azul2
+    }
+}

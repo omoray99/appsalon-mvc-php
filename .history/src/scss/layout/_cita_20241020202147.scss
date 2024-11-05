@@ -1,0 +1,14 @@
+
+@use 'base/variables' as v;
+
+.seccion{
+    padding: 5rem 0;
+    .text-center{
+        text-align: center;
+        color: v.$azul2;
+    }
+    &:nth-child(3),
+    &:nth-child(4){
+        display: none;
+    }
+}
