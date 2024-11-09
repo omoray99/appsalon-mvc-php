@@ -4,7 +4,7 @@ namespace Controllers;
 
 use Model\Cita;
 use Model\CitaServicio;
-use Model\Servicio;
+use Model\servicio;
 
 class APIController {
     public static function index(){
