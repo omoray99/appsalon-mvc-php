@@ -3,6 +3,8 @@
 namespace Model;
 
 class Servicio extends ActiveRecord {
+    Merge branch 'main' of https://github.com/omoray99/appsalon-mvc-php
+    
     // base de datos
     protected static $tabla = 'servicios';
     protected static $columnasDB = ['id', 'nombre', 'precio'];
